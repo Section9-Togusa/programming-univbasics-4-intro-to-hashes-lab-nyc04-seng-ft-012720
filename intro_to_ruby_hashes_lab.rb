@@ -23,7 +23,7 @@ end
 def id_generator
   # return a hash with a key :id assigned to positive integer
   mcdonals = {
-    id: "4012"
+    id: [4]
   }
   mcdonals[:id]
 end
