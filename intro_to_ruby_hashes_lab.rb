@@ -25,7 +25,7 @@ def id_generator
   mcdonals = {
     id: "4012"
   }
-  mcdonals
+  mcdonals[:id]
 end
 
 def my_hash_creator(key, value)
